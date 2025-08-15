@@ -1,0 +1,16 @@
+package unsw.engineering;
+
+public class Engineer extends Employee {
+    private double bonus;
+
+    public Engineer(String title, String firstName, String lastName, int quota, double bonus) {
+        super(title, firstName, lastName, quota);
+        this.bonus = bonus;
+    }
+
+    @Override
+    public double getAdditionalSalary() {
+        return bonus;
+    }
+
+}
