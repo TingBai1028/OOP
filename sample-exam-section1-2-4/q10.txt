@@ -1,0 +1,10 @@
+=== Question 10 ===
+
+It is NOT a valid inheritance.
+
+reasons:
+    - in UNSW Student, schedule class method, the precondition strentened.
+    which violates LSP.
+    - also the postconditions not strentened or weakened, instead it changed
+    also violates LSP (return exception which is not exist in parent method)
+

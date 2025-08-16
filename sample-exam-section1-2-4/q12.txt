@@ -1,0 +1,27 @@
+=== Question 12 ===
+
+It will print "Woof Woof"
+
+
+????? HOW TO EXPLAIN
+
+
+In main we create a new instance dog, then we ceate a animal object, 
+we let anmal object = dog, which sent animal point to teh address of dog.
+Finally we call animal.noise, by reference we called dog.noise, which is a override method to animal. hence it sould print woof woof.
+
+
+Sample anser: 
+- Dynamic polymorphism ( runtime polymorphism )
+    - Compile-time type vs runtime type:
+        - compile-time type: what compiler thinks the variable is, based on its declaration.
+        - runtime type: the actual object thaat the variable points to when the program is running.
+
+    In this question:
+        Animal animal = new dog();
+
+        compile time type of animal is Animal, based on its declaration.
+        runtime type of animal is dog, which is the actual object that the variable points to when the program is running.
+
+    - Method dispatch:
+        - at runtime, looks at the actual object type and runs the overriden version of noise() inside dog.

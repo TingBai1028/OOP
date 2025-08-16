@@ -1,0 +1,11 @@
+=== Question 9 ===
+
+Composition:
+    if the container is destroyed, so is the part.
+    The container strongly owns the part object.
+
+Aggregation:
+    The part can exist indenpendently of the whole.
+
+If the online call (container) is destroyed, so is the breakout room
+Hence is Composition.

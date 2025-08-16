@@ -1,0 +1,20 @@
+=== Question 17 ===
+
+1. requriement:
+    - real-time
+    - high-volume stream
+    - alert
+    - distributed
+
+
+2. chosen arthitecture:
+    EDA
+
+sample answer:
+- key functional requriement
+
+- key non-functional requriement
+    - scalabilily
+    - low latency
+    - resilience
+    - modifiability

@@ -1,0 +1,10 @@
+=== Question 11 ===
+
+Smells:
+    - Feature envy: 
+        - it depends too much on the train class
+        - solution: move train logic to the train class
+
+    - Long method:
+        - nested if else
+        - extract it into different methods

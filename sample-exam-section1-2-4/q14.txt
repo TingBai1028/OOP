@@ -1,0 +1,11 @@
+=== Question 14 ===
+
+Using Event-driven structure
+
+In requriement: 
+- fast, low latent
+    --> due to event-driven is asynchronoous, which continues immediately after sending, fits into the requirements of fast adn low latent.
+- logic is complext
+- cahnge frequently
+    --> the nature of event-driven loose coupling makes the system easy to scale, which increase the speed and fault tolerance.
+- each has it's own database

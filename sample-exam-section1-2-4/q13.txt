@@ -1,0 +1,9 @@
+=== Question 13 ===
+
+strategy pattern
+
+- Differnt transport methods: walking, cycling, and public transport.
+    -> faimily of algorithms
+- users need to be easily switch between different routing options at run time
+    -> interchangeable in context object
+- vary behaviour without changin the context class.
